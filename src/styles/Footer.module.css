@@ -1,0 +1,33 @@
+.container{
+    color: orange;
+    font-family: 'Graphique';
+    width: 100vw;
+    justify-content: center;
+    font-size: 2rem;
+    flex-direction: column;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+display: flex;}
+
+
+.titleHolder{
+    font-family: 'Graphique';
+text-align: center;}
+
+.linkHolder{
+    font-family: 'Nunito';
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 1em;
+font-size: 1rem;
+padding-bottom: 5em;
+}
+.linkHolder p{
+    text-decoration: none;
+    color: orange;
+list-style: none;
+}
+.linkHolder a{
+    text-decoration: none;
+}

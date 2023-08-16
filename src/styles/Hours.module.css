@@ -1,0 +1,29 @@
+.container{
+    color: #171717;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-image: url('../../public/backgroundRay.svg');
+    align-content: center;
+    
+}
+.backgroundRaycont{
+    height: auto;
+    z-index: -99;
+    position: absolute;
+
+}
+.backgroundRaycont img{
+
+    width: 80%;
+}
+.textContainer{
+    font-family: 'Graphique';
+    text-align: center;
+    justify-content: center;
+    padding: 5rem;
+    align-content: center;
+    background-color: white;
+position: relative;
+    z-index: 6;
+}

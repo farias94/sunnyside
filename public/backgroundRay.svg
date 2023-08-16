@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 528.3663 479.8915">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: #f5802a;
+      }
+
+      .cls-4 {
+        fill: #e57a28;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #fcc082;
+      }
+
+      .cls-7 {
+        fill: #89d6f8;
+      }
+
+      .cls-8 {
+        fill: #06506a;
+      }
+
+      .cls-9 {
+        fill: #0c6182;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="126.6026" y="31.3168" width="266.7054" height="402.7595" transform="translate(-44.6968 402.7305) rotate(-71)"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-5" x="49.5355" y="45.6879" width="430.2482" height="366.0871"/>
+      <path id="Path_192" data-name="Path 192" class="cls-7" d="m253.2239,204.1324l220.8342-96.767-30.0348-43.748-190.7995,140.515Z"/>
+      <path id="Path_193" data-name="Path 193" class="cls-7" d="m522.4336,186.5327l-235.1704,30.3419,241.1031,22.5624-5.9327-52.9042Z"/>
+      <path id="Path_194" data-name="Path 194" class="cls-7" d="m406.071,433.7347l37.3661-42.9394-188.6435-162.0639,151.2774,205.0032Z"/>
+      <path id="Path_195" data-name="Path 195" class="cls-7" d="m124.3447,466.8036l59.8171,13.0879,58.5348-258.3063-118.3519,245.2184Z"/>
+      <path id="Path_196" data-name="Path 196" class="cls-3" d="m31.1976,45.6879L0,95.0523l240.0479,109.9389L31.1976,45.6879Z"/>
+      <path id="Path_232" data-name="Path 232" class="cls-4" d="m57.0676,59.6228l-30.7298,49.3836,238.3218,109.0835L57.0676,59.6228Z"/>
+      <path id="Path_197" data-name="Path 197" class="cls-7" d="m302.9125,0l-48.1188,232.6965L355.0381,15.5188,302.9125,0Z"/>
+      <path id="Path_198" data-name="Path 198" class="cls-9" d="m394.0143,319.7886l-146.005-110.1448,120.153,142.607,25.852-32.4623Z"/>
+      <path id="Path_199" data-name="Path 199" class="cls-7" d="m323.4943,395.4124l-72.9974-171.2685,33.1435,187.6311,39.8539-16.3626Z"/>
+      <path id="Path_200" data-name="Path 200" class="cls-7" d="m97.9873,364.5135l146.9821-131.4082-175.3006,97.6809,28.3186,33.7273Z"/>
+      <path id="Path_201" data-name="Path 201" class="cls-6" d="m47.3412,222.627l195.8856-10.3972-194.5496-32.6815-1.336,43.0787Z"/>
+      <path id="Path_202" data-name="Path 202" class="cls-7" d="m282.8105,29.045l-30.32,174.6066,69.5454-164.6627-39.2254-9.9439Z"/>
+      <path id="Path_203" data-name="Path 203" class="cls-8" d="m452.4608,256.0369l-177.6134-23.3403,171.3594,63.1009,6.254-39.7606Z"/>
+      <g class="cls-2">
+        <g id="Mask_Group_23" data-name="Mask Group 23">
+          <g id="Group_152" data-name="Group 152">
+            <path id="Path_192-2" data-name="Path 192" class="cls-7" d="m256.3204,209.6492l173.8845,123.4218,18.6195-41.8202-192.504-81.6016Z"/>
+            <path id="Path_193-2" data-name="Path 193" class="cls-7" d="m393.6682,404.1419l-131.247-164.0944,94.4113,191.14,36.8357-27.0456Z"/>
+            <path id="Path_194-2" data-name="Path 194" class="cls-7" d="m163.5316,413.5038l47.4833,10.3239,32.6054-208.5021-80.0887,198.1781Z"/>
+            <path id="Path_195-2" data-name="Path 195" class="cls-7" d="m15.9524,227.2795l15.8353,48.1918,207.2397-66.0507L15.9524,227.2795Z"/>
+            <path id="Path_196-2" data-name="Path 196" class="cls-3" d="m270.8631-17.87l-48.9054-.2496,27.8338,218.5196,21.0716-218.27Z"/>
+            <path id="Path_232-2" data-name="Path 232" class="cls-4" d="m274.4035-7.9213l-48.7987-.0646,27.7483,217.6351L274.4035-7.9213Z"/>
+            <path id="Path_197-2" data-name="Path 197" class="cls-7" d="m457.1658,135.234l-193.7604,65.8778,207.0959-20.3304-13.3355-45.5474Z"/>
+            <path id="Path_198-2" data-name="Path 198" class="cls-9" d="m239.8326,368.4502l14.0926-154.7098-49.0934,148.9797,35.0009,5.7301Z"/>
+            <path id="Path_199-2" data-name="Path 199" class="cls-7" d="m150.3791,342.0236l90.2909-125.8196-119.1682,103.2844,28.8773,22.5352Z"/>
+            <path id="Path_200-2" data-name="Path 200" class="cls-7" d="m75.4334,165.9214l156.3258,50.0697-144.8974-84.2716-11.4284,34.2019Z"/>
+            <path id="Path_201-2" data-name="Path 201" class="cls-6" d="m152.6934,70.0597l93.3057,135.754-62.4677-153.2993-30.8381,17.5453Z"/>
+            <path id="Path_202-2" data-name="Path 202" class="cls-7" d="m401.685,156.3945l-141.7298,53.2547,152.7994-19.9104-11.0697-33.3443Z"/>
+            <path id="Path_203-2" data-name="Path 203" class="cls-8" d="m309.153,380.1399l-63.7498-142.4683,31.6544,154.5002,32.0954-12.0319Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

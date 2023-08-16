@@ -1,4 +1,4 @@
-.main {
+/*.main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -150,7 +150,7 @@
   );
   background-clip: content-box;
 }
-
+*/
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -276,3 +276,4 @@
     transform: rotate(0deg);
   }
 }
+*/

@@ -1,0 +1,39 @@
+.container{
+    padding-left: 10em;
+    padding-right: 10em;
+
+    font-size: 1rem;
+    
+}
+.container h1{
+    font-size: 3rem;
+}
+.buttons{
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+    padding: 1em;
+    font-family: 'Graphique';
+
+}
+.container p {
+    font-size: 1rem;
+    font-family: 'Nunito';
+}
+.buttons:hover{
+    color: orangered
+}
+.title{
+    letter-spacing: .1rem;
+    font-size: 2rem;
+}
+.ingredients  {
+   font-weight: lighter;
+    font-family: 'Nunito';
+}
+.title{
+    font-family: 'Graphique';
+}
+.price{
+    font-family: 'Nunito';
+}

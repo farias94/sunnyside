@@ -1,0 +1,62 @@
+.ExplainerSection{
+    font-family: 'Graphique';
+    display: flex;
+    background-color: #F0EA55;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: wrap;
+    background-blend-mode: hue;
+    padding: 4em 2em 2em 12em;
+    background-image: url('../../public/diagonalPattern.svg')
+}
+.innerSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-blend-mode: darken;
+    background-color: #F0EA55;
+    justify-content: space-between;
+    flex-basis: fill;
+    padding: 10em;
+}
+
+    .textSection p{
+
+        width: 50ch;
+        font-size: 1rem;
+    padding: 1em;
+    margin-left: 1em;
+}
+.headlineCopy{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ImageSection{
+    display: flex;
+    flex-direction: column;
+}
+.ImageSection img{
+    width: clamp(20%,20vw,100%);
+    object-fit: contain;
+    background-blend-mode: multiply;
+padding-top: 2em;
+width: 20em;
+}
+
+.headline{
+    font-size: clamp(3rem,6vw,10rem);
+
+}
+.menuButton{
+    background-color: #361f02;
+    border: none;
+    
+    padding-top: 1em;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    padding-bottom: 1em;
+    font-family: 'Graphique';
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #f1cd18;
+}

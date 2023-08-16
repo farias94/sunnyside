@@ -1,0 +1,127 @@
+.topBar{
+    font-family: 'Graphique';
+    display: flex;
+   color: rgb(34, 34, 34);
+   text-decoration: none;
+   font-size: .8rem;
+   margin-top: -1em;
+   letter-spacing: .5ch;
+   
+}
+
+
+.sunnySideName{
+    margin-bottom: -20vw;
+    margin-top: -1vw;
+}
+
+
+
+.sunnySideGif{
+    margin-top: -3vw;
+    width: clamp(80%,30vw,90%);
+    box-sizing: border-box;
+    position: relative;
+    height: auto;
+}
+.ImageTagline{
+    width: 100%;
+    position: absolute;
+    animation: wave-warp 2s ease-in-out infinite;
+}
+
+
+.ImageTagline img{
+    background-image: url('../../public/HappyEggs.png');
+    object-fit: cover;
+    width: 200%;
+}
+
+.ImageTaglineContainer{
+
+}
+@keyframes wave-warp{
+
+    0%{
+        transform: translateX(0) translateY(0);
+        transform: skewX(-20deg);
+      }
+        50%
+        {
+            transform: translateX(-2px) translateY(-2px);
+
+        }
+
+        75%{
+            transform: translateX(-3px) translateY(-3px);
+
+        }
+        100%{
+            transform: skew(0deg);
+            transform: translateX(20) translateY(0);
+
+        }
+}
+
+.LetterS{
+        animation: wave-warp 3s ease-in-out infinite;
+       
+}
+
+.sunnySideName{
+    width: 100vw;
+   text-align: center;
+}
+
+
+
+.ImageEggs:hover{
+
+ 
+
+}
+.ImageEggs{
+    max-width: clamp( 50vw, 90% - 30vw, 90%);
+
+    box-sizing: border-box;
+    height: auto;
+}
+.ImageEggs{
+   box-sizing: border-box;
+   align-self: center;
+   margin-bottom: -10vh;
+}
+
+.HeroContainer{
+    padding: 2em;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    background-blend-mode:luminosity;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Graphique';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.menuText{
+    color: black;
+    font-size: 4rem;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.menuText:hover{
+    text-underline-offset: 45deg;
+}
+
+.ImageContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}

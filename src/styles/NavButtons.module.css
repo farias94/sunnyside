@@ -1,0 +1,15 @@
+.buttonText{
+    font-family: 'Graphique';
+    font-size: 3rem;
+    border: 2px solid orange;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: orange;
+    background-color: white;
+}
+.NavButton{
+
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 30rem;
+}
