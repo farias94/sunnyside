@@ -1,6 +1,6 @@
 import react, { useState } from "react";
 import styles from '../../styles/menuButton.module.css'
-import menuData from "./menuData";
+import menuData from "../../../public/menuData";
 const menuButton =()=> {
 
 const [selectedCategory, setSelectedCategory] = useState('main')
