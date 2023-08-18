@@ -1,6 +1,6 @@
 import react from "react";
 import styles from '../../styles/Menu.module.css'
-import menuData from "../../../public/menuData";
+import menuData from "../api/menuData";
 import MenuButton from "../components/MenuButton";
 import Link from "next/link";
 
