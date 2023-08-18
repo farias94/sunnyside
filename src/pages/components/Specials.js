@@ -28,9 +28,9 @@ const Specials =()=>{
 
           
 
-            <Image className ={styles.AcaiImage} alt ='' src={Acai}></Image>
+            <Image className ={styles.AcaiImage} alt ='acai bowl image' src={Acai}></Image>
             <div className={styles.backgroundSpikyImg}>
-            <Image className={styles.SpikyImg} src ={Spiky}></Image>  
+            <Image className={styles.SpikyImg} alt="spiky" src ={Spiky}></Image>  
 
 
             </div>  

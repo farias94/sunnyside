@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import styles from '../../styles/menuButton.module.css'
-import menuData from "../../../public/menuData";
-const menuButton =()=> {
+import menuData from "../api/menuData";
+const MenuButton =()=> {
 
 const [selectedCategory, setSelectedCategory] = useState('main')
 
@@ -33,4 +33,4 @@ const remainingMenu = menuData.filter(item => item.category !== selectedCategory
     )
 }
 
-export default menuButton
+export default MenuButton
