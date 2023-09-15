@@ -3,9 +3,9 @@
     display: flex;
    color: rgb(34, 34, 34);
    text-decoration: none;
-   font-size: .8rem;
+   font-size: 2rem;
    margin-top: -1em;
-   letter-spacing: .5ch;
+   letter-spacing: .1ch;
    
 }
 
@@ -19,9 +19,18 @@
 
 .sunnySideGif{
     margin-top: -3vw;
-    width: clamp(80%,30vw,90%);
+    width: clamp(20em,80vw,100%);
     box-sizing: border-box;
+    object-fit: contain;
     position: relative;
+    height: auto;
+}
+.sunnySideGifMobile{
+    align-self: center;
+    margin-top: 1vw;
+    width: clamp(20em,50vw,100%);
+    box-sizing: border-box;
+    object-fit: contain;
     height: auto;
 }
 .ImageTagline{
@@ -89,8 +98,9 @@
 .ImageEggs{
    box-sizing: border-box;
    align-self: center;
-   margin-bottom: -10vh;
+   margin-top: clamp(-30rem, -2vh, 10vh);
 }
+
 
 .HeroContainer{
     padding: 2em;

@@ -24,7 +24,7 @@ const remainingMenu = menuData.filter(item => item.category !== selectedCategory
 {remainingMenu.map((item) =>(
   <div className={styles.title} key = {item.id}>
     <h3>{item.item}</h3>
-    <p classname={styles.ingredients}>{item.ingredients}</p>
+    <p className={styles.ingredients}>{item.ingredients}</p>
     <p>${item.price}</p>
     </div>
 ))}
