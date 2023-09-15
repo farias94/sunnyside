@@ -6,7 +6,8 @@
     flex-direction: row;
     flex-flow: wrap;
     background-blend-mode: hue;
-    padding: 4em 2em 2em 12em;
+    padding: 2em 2em 2em 2em;
+
     background-image: url('../../public/diagonalPattern.svg')
 }
 .innerSection{
@@ -17,12 +18,12 @@
     background-color: #F0EA55;
     justify-content: space-between;
     flex-basis: fill;
-    padding: 10em;
+    padding: 3em;
+
 }
 
     .textSection p{
 
-        width: 50ch;
         font-size: 1rem;
     padding: 1em;
     margin-left: 1em;

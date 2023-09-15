@@ -1,6 +1,5 @@
 .container{
-    padding-left: 10em;
-    padding-right: 10em;
+  
 
     font-size: 1rem;
     
@@ -12,11 +11,12 @@
     font-size: 2rem;
     border: none;
     background-color: transparent;
-    padding: 1em;
+    padding: 1=4em;
     font-family: 'Graphique';
 
 }
 .container p {
+    width: 100%;
     font-size: 1rem;
     font-family: 'Nunito';
 }
@@ -28,6 +28,7 @@
     font-size: 2rem;
 }
 .ingredients  {
+    width: 100%;
    font-weight: lighter;
     font-family: 'Nunito';
 }
