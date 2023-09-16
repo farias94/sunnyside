@@ -1,5 +1,5 @@
 .container{
-    background-color: #fcee2e;
+    background-color: #f69191;
     font-family: 'Graphique';
     padding: 5em;
     max-width: 100%;
@@ -22,7 +22,7 @@ background-image: url('../../public/spiky.svg');
 }
 
 .header{
-    font-size: clamp(3rem,5vw,6rem);
+    font-size: clamp(4rem,6vw,7rem);
 }
 .headerContainer{
 
@@ -65,7 +65,7 @@ object-fit: cover;
 
     position: relative;
     filter: hue-rotate(90deg);
-    animation: rotatespike 25s ease infinite;
+    animation: rotatespike 15s  infinite;
 }
 
 .SpikyImg img{
@@ -74,15 +74,18 @@ object-fit: cover;
 
 @keyframes rotatespike {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(60deg);
+    }
+    90%{
+        transform: rotate(340deg);
     }
     100%{
-        transform: rotate(360deg);
+        transform: rotate(360deg)
     }
     
 }
 .backgroundSpikyImg{
-    margin-top: 10vw;
+    margin-top: 30vw;
     z-index:-2;
     position: absolute;
     align-content: center;

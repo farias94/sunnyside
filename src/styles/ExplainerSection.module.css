@@ -1,31 +1,35 @@
 .ExplainerSection{
     font-family: 'Graphique';
     display: flex;
-    background-color: #F0EA55;
+    background-color: #55def0;
     justify-content: space-between;
     flex-direction: row;
     flex-flow: wrap;
-    background-blend-mode: hue;
+
+ background-blend-mode: hue;
     padding: 1em;
-    background-image: url('../../public/diagonalPattern.svg')
+    background-image: url('../../public/diagonalPattern.svg');
+    width: 100%
 }
 .innerSection{
+    padding: 5em;
+    border-radius: 2%;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-blend-mode: darken;
-    background-color: #F0EA55;
+    background-color: #99d4e4;
     justify-content: space-between;
     flex-basis: fill;
     padding: 2em;
+    width:90%;
 
 }
 
     .textSection p{
 
         font-size: 1rem;
-    padding: 1em;
-    margin-left: 1em;
 }
 .headlineCopy{
     font-size: 1rem;
@@ -48,15 +52,16 @@ width: 20em;
 
 }
 .menuButton{
-    background-color: #361f02;
+    background-color: #ee6e12;
     border: none;
-    
-    padding-top: 1em;
+    border-radius: 5%;
+align-content: center;   
+ padding-top: .5em;
     font-size: 1.5rem;
     letter-spacing: .2rem;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     font-family: 'Graphique';
-    padding-left: 2em;
-    padding-right: 2em;
-    color: #f1cd18;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #e9e9e9;
 }

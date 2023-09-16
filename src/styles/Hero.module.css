@@ -98,7 +98,8 @@
 .ImageEggs{
    box-sizing: border-box;
    align-self: center;
-   margin-top: clamp(-30rem, -2vh, 10vh);
+   margin-bottom: 20vh;
+   margin-top: clamp(-10rem, -2vh, -20vh);
 }
 
 
@@ -106,10 +107,10 @@
     padding: 2em;
     background-color: rgb(255, 255, 255);
     max-width: 100%;
-    background-blend-mode:luminosity;
-    background-position: center;
+    background-image: url('../../public/backgroundRay.svg');
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 250%;
     font-family: 'Graphique';
     display: flex;
     flex-direction: column;
