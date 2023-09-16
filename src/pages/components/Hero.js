@@ -6,6 +6,8 @@ import Tagline from '../../../public/tagline.svg'
 import NavButton from "./NavButtons";
 import { useState , useEffect} from "react";
 import Image from "next/image";
+import backgroundRay from '../../../public/backgroundRay.svg'
+
 import sunnySideGifMobile from '../../../public/sunnysidegifmobile.gif'
 import sunnySidegif from '../../../public/sunnysidetext.gif'
 import HeroImage from "./HeroImage";

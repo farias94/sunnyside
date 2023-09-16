@@ -24,13 +24,16 @@ const Specials =()=>{
 
             </div>  */}
         <div className={styles.specialsItem}>
-            <p className={styles.SpecialsTitle}>Acai Bowl 8.99</p>
+            <p className={styles.SpecialsTitle}>Acai Bowl </p>
+            <p className={styles.SpecialsPrice}>9.99</p>
 
           
 
             <Image className ={styles.AcaiImage} alt ='acai bowl image' src={Acai}></Image>
             <div className={styles.backgroundSpikyImg}>
             <Image className={styles.SpikyImg} alt="spiky" src ={Spiky}></Image>  
+            <Image className={styles.SpikyImg2} alt="spiky" src ={Spiky}></Image>  
+
 
 
             </div>  
