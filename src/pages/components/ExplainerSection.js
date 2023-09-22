@@ -16,10 +16,7 @@ return(
 <Link href='../components/Menu'><button className={styles.menuButton}>Menu</button></Link>
 
 </div> 
-<div className={styles.ImageSection}>
-<Image src={ImageOne} alt=''></Image>
-<Image src={ImageTwo} alt=""></Image>
-</div>
+
 </div>
 </div>
 )

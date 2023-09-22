@@ -8,7 +8,6 @@
 
  background-blend-mode: hue;
     padding: 1em;
-    background-image: url('../../public/diagonalPattern.svg');
     width: 100%
 }
 .innerSection{
