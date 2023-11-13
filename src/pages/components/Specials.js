@@ -24,10 +24,11 @@ const Specials =()=>{
 
             </div>  */}
         <div className={styles.specialsItem}>
+            <div className={styles.specialsItemTextContainer}>
             <p className={styles.SpecialsTitle}>Acai Bowl </p>
             <p className={styles.SpecialsPrice}>9.99</p>
 
-          
+        </div>
 
             <Image className ={styles.AcaiImage} alt ='acai bowl image' src={Acai}></Image>
             <div className={styles.backgroundSpikyImg}>
