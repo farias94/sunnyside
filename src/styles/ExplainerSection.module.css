@@ -26,10 +26,7 @@
 
 }
 
-    .textSection p{
-        
-        font-size: 1.5rem;
-}
+   
 .textSection{
     display: flex;
     flex-direction: column;
