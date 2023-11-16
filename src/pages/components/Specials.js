@@ -31,13 +31,14 @@ const Specials =()=>{
         </div>
 
             <Image className ={styles.AcaiImage} alt ='acai bowl image' src={Acai}></Image>
-            <div className={styles.backgroundSpikyImg}>
+            {/*<div className={styles.backgroundSpikyImg}>
             <Image className={styles.SpikyImg} alt="spiky" src ={Spiky}></Image>  
             <Image className={styles.SpikyImg2} alt="spiky" src ={Spiky}></Image>  
-
+        
 
 
             </div>  
+            */}
             </div>
 
             

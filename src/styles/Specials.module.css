@@ -32,7 +32,7 @@ background-image: url('../../public/spiky.svg');
 
 .specialsCopy{
     font-size: 1rem;
-   font-weight: lighter;
+   font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .SpecialsSection{
