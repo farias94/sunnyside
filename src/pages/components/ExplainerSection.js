@@ -11,9 +11,9 @@ return(
         <div className={styles.innerSection}>
 <div className={styles.textSection}>
 <h2 className={styles.headline}>Counter Culture Coffee,<br/>Brunch All Day</h2>
-<p className={styles.headlineCopy}> We are a small cafe in specializing in brunch all day and coffee. Stop by for a quick snack or come hang out in our cozy couch!</p>
+<p className={styles.headlineCopy}> We are a small cafe in specializing in brunch all day and coffee. <br/>Stop by for a quick snack or come hang out in our cozy couch!</p>
 
-<Link href='../components/Menu'><button className={styles.menuButton}>Menu</button></Link>
+<Link className ={styles.menuContainer} href='../components/Menu'><button className={styles.menuButton}>Menu</button></Link>
 
 </div> 
 

@@ -10,9 +10,7 @@
     text-decoration: none;
     color: black;
 }
-.container h1{
-    font-size: 1rem;
-}
+
 .HelloText{
     color: black;
     text-decoration: none;
@@ -21,4 +19,7 @@
 
 .HomeText{
     font-size: 3rem;
+}
+.MenuTitle{
+    font-size: 2rem
 }

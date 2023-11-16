@@ -1,11 +1,10 @@
 .ExplainerSection{
     font-family: 'Graphique';
     display: flex;
-    background-color: #55def0;
+   background-color: #55def0;
     justify-content: space-between;
     flex-direction: row;
     flex-flow: wrap;
-
  background-blend-mode: hue;
     padding: 1em;
     background-image: url('../../public/diagonalPattern.svg');
@@ -14,7 +13,8 @@
 .innerSection{
     padding: 5em;
     border-radius: 2%;
-
+width: 80%;
+height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,12 +27,19 @@
 
 }
 
-    .textSection p{
-
-        font-size: 1rem;
+   
+.textSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    align-items: center;
 }
 .headlineCopy{
-    font-size: 1rem;
+    font-size: clamp(1rem, 1vw, 2.5rem);
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .ImageSection{
@@ -48,7 +55,7 @@ width: 20em;
 }
 
 .headline{
-    font-size: clamp(3rem,6vw,10rem);
+    font-size: clamp(4rem,6vw,10rem);
 
 }
 .menuButton{
@@ -57,11 +64,13 @@ width: 20em;
     border-radius: 5%;
 align-content: center;   
  padding-top: .5em;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: .2rem;
     padding-bottom: .5em;
     font-family: 'Graphique';
-    padding-left: 1em;
-    padding-right: 1em;
     color: #e9e9e9;
+    align-self: center;
+}
+.menuContainer{
+    padding: 2rem;
 }

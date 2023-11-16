@@ -9,7 +9,7 @@ const Menu =()=>{
         <div className={styles.container}>
 <div>
         <Link href='/'><h1 className={styles.HomeText}>SunnySide</h1></Link>
-        <h1>Menu</h1>
+        <h1 className={styles.MenuTitle}>Menu</h1>
 <div>
  
 <MenuButton />
