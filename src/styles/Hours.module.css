@@ -18,7 +18,7 @@
     width: 80%;
 }
 .textContainer{
-    font-family: 'Graphique';
+    font-family: 'Nunito';
     text-align: center;
     justify-content: center;
     padding: 5rem;
@@ -26,5 +26,5 @@
     background-color: white;
 position: relative;
     z-index: 6;
-    font-size: 2rem;
+    font-size: 1rem;
 }

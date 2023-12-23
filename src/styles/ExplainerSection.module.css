@@ -1,9 +1,9 @@
 .ExplainerSection{
     font-family: 'Graphique';
     display: flex;
-   background-color: #55def0;
-    justify-content: space-between;
+   background-color: #38daec;
     flex-direction: row;
+    color: #1b1b1b;
     flex-flow: wrap;
  background-blend-mode: hue;
     padding: 1em;
@@ -36,11 +36,10 @@ height: auto;
     align-items: center;
 }
 .headlineCopy{
-    font-size: clamp(1rem, 1vw, 2.5rem);
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: rgb(32, 32, 32);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-family: 'Nunito'
 }
 .ImageSection{
     display: flex;
@@ -55,12 +54,13 @@ width: 20em;
 }
 
 .headline{
-    font-size: clamp(4rem,6vw,10rem);
+    font-size: clamp(4rem,5vw,9rem);
+    width: 50%;
+    letter-spacing: 1px;
 
 }
 .menuButton{
     background-color: #ee6e12;
-    border: none;
     border-radius: 5%;
 align-content: center;   
  padding-top: .5em;
