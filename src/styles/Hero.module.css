@@ -1,7 +1,6 @@
 .topBar{
     font-family: 'Graphique';
     display: flex;
-   color: rgb(218, 90, 11);
    text-decoration: none;
    font-size: 2rem;
    margin-top: -1em;
@@ -23,10 +22,13 @@
     width: clamp(20em,80vw,100%);
     box-sizing: border-box;
     object-fit: contain;
+
     position: relative;
     height: auto;
 }
 .sunnySideGifMobile{
+    z-index: 2;
+    
     align-self: center;
     margin-top: 1vw;
     width: clamp(20em,50vw,100%);
@@ -80,6 +82,7 @@
 
 .sunnySideName{
     width: 100vw;
+
    text-align: center;
 }
 
@@ -97,10 +100,16 @@
     height: auto;
 }
 .ImageEggs{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
    box-sizing: border-box;
    align-self: center;
    margin-bottom: 20vh;
    margin-top: clamp(-20rem, -22vh, -20vh);
+}
+.ImageEggs img:hover{
+    top: -20px;
 }
 
 
@@ -110,9 +119,10 @@
     background-color: rgb(255, 255, 255);
     max-width: 100%;
     background-position: left;
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: cover;
+    background-position: top;
     font-family: 'Graphique';
     display: flex;
     flex-direction: column;
@@ -146,5 +156,8 @@
     .ImageEggs {
         max-width: 100%;
 
+    }
+    .HeroContainer{
+        height: 80vh;
     }
 }
