@@ -8,7 +8,7 @@ import { useState , useEffect} from "react";
 import Image from "next/image";
 import backgroundRay from '../../../public/backgroundRay.svg'
 
-import sunnySideGifMobile from '../../../public/sunnysidegifmobile.gif'
+import sunnySideGifMobile from '../../../public/sunnysidegifmobile1.gif'
 import sunnySidegif from '../../../public/sunnysidetext.gif'
 import HeroImage from "./HeroImage";
 import Link from "next/link";
@@ -17,28 +17,29 @@ const Hero = ()=>{
 
   const [windowWidth ,setWindowWidth] = useState(null);
 
+const [IsMobile, SetMobile] = useState(false)
+const [IsDesktop, SetDesktop] = useState(false)
+
+
+useEffect(() => {
 
   const mobileChecker = () =>{
     console.log('hi')
-    if( window.innerWidth === '900'){
-      setIsMobile(!isMobile)
+    const width = window.innerWidth
+   SetDesktop(width <= 900);
+   SetMobile(width >= 900 );
     }
-    else(true)
-    
-  }
+ mobileChecker()
+ window.addEventListener('resize', mobileChecker)
 
-useEffect(() => {
-  if (typeof window !== 'undefined'){
-    setWindowWidth(window.innerWidth)
+ return( )=>{
 
-    const updateWindowWidth  = () =>{
-  window.addEventListener('resize', updateWindowWidth)}
+  window.removeEventListener('resize', mobileChecker)
+ };
     
-  return ()=>{
-    window.removeEventListener('resize', updateWindowWidth)
-  }
-  };
-} ,[])
+
+
+} ,[ ]);
 
   
     return(
@@ -53,7 +54,7 @@ useEffect(() => {
 
             <div className={styles.ImageContainer}> 
            
-            <Image className={styles.sunnySideGifMobile} alt ='' src ={sunnySidegif}></Image>
+            <Image className={ styles.sunnySideGifMobile} alt ='' src ={ IsMobile ?sunnySidegif : sunnySideGifMobile }></Image>
 
 <Image className={styles.ImageEggs}src={Eggs} alt=''></Image>
 </div>

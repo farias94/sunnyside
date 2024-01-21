@@ -1,5 +1,4 @@
 .container{
-  
 
     font-size: 1rem;
     
@@ -24,6 +23,7 @@
     color: orangered
 }
 .title{
+    font-family: 'Nunito';
     letter-spacing: .1rem;
     font-size: 3rem;
 }
@@ -33,7 +33,7 @@
     font-family: 'Nunito';
 }
 .title{
-    font-family: 'Graphique';
+    font-family: 'Nunito';
 }
 .price{
     font-family: 'Nunito';
